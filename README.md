@@ -45,5 +45,7 @@ DVD光碟片以記錄層可分為:
 
 # Conversion
 
-    1 bits = 0.125 bytes
+    1 bit = 0.125 bytes
+    
+    1 byte = 8 bits
 
