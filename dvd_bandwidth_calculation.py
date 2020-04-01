@@ -8,8 +8,9 @@ from dateutil.relativedelta import relativedelta
 from datetime import timedelta
 
 # Constant ---->
+DVD_speed = 5000000 #bit/s # MPEG2 Compression
 BandWidth_speed = 100000000 #bit/s
-DVD_storage_bytes = 4.7 #GB
+DVD_storage_bytes = 4.7 #GB (bytes)
 
 # month = time.strptime('00:01: 00,000'.split(',')[0],'%H:%M:%S'
 # may_end = date.today() + relativedelta(months=+1)
@@ -27,7 +28,7 @@ arregate_bits= day2sec * BandWidth_speed
 print(arregate_bits) #51840000 DVD in bits can be played in this Bandwith for 1 month
 
 def GB2Bytes (gb_figure):
-    dvd_bytes = gb_figure * 1000 * 1000000
+    dvd_bytes = gb_figure * 1000 * 1000 * 1000
     print(dvd_bytes)
     return(dvd_bytes) # 4700000000
 
@@ -41,9 +42,10 @@ DVD_storage_in_bits= convertor(DVD_storage_in_bytes)
 print(DVD_storage_in_bits) # 587500000
 
 def DVD_number_checker(in_total_bits):
-    out_num = in_total_bits /DVD_storage_in_bits
+    med_num = in_total_bits /DVD_storage_in_bits
+    out_num = med_num/DVD_speed
     return out_num
 
 dvd_consumed_amount = DVD_number_checker(arregate_bits)
-print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 6893
+print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 0.0013
 
