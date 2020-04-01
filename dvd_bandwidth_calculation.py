@@ -46,5 +46,5 @@ def DVD_number_checker(in_total_bits):
     return out_num
 
 dvd_consumed_amount = DVD_number_checker(arregate_bits)
-print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 0.0013
+print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 6893.6
 
