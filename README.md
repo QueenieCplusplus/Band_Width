@@ -8,6 +8,8 @@ Calculation in Python
   M = 100
   
   8 = bytes2Bit
+  
+  G / M = 1000
 
   86400 * 30 day * M / 8 / (4.7 * 1024) = 6732.05
 
