@@ -23,7 +23,9 @@ DVD光碟片以記錄層可分為:
 
 直徑120mm
 
-單面單層光碟片儲存容量約4.7GB（簡稱DVD 5）
+常見的為單面單層光碟片儲存容量約4.7GB（簡稱DVD 5）
+
+![dvd](https://24h.pchome.com.tw/prod/DCAA3A-A9009DYOQ?fq=/S/DCAA0U)
 
 單面雙層光碟片儲存容量約8.54GB（簡稱DVD 9）
 
