@@ -1,4 +1,4 @@
-# 4/01, am 8:45 - 10:00 (duration: 75 mins)
+# 4/01, am 8:45 - 10:00 (duration: 25 mins)
 # DVD numbers calculation
 # COL : 17 lines
 # we define time in sec unit, and speed in Mbps unit.
@@ -34,7 +34,7 @@ def GB2Bytes (gb_figure):
 DVD_storage_in_bytes= GB2Bytes(DVD_storage_bytes)
 
 def convertor(bytes):
-    bits = bytes * 0.125
+    bits = bytes * 8
     return bits
 
 DVD_storage_in_bits= convertor(DVD_storage_in_bytes)
@@ -45,5 +45,5 @@ def DVD_number_checker(in_total_bits):
     return out_num
 
 dvd_consumed_amount = DVD_number_checker(arregate_bits)
-print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 441191
+print("we played ",dvd_consumed_amount ,"DVD in this bandwidth for a month.") # 6893
 
