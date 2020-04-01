@@ -42,8 +42,7 @@ DVD_storage_in_bits= convertor(DVD_storage_in_bytes)
 print(DVD_storage_in_bits) # 587500000
 
 def DVD_number_checker(in_total_bits):
-    med_num = in_total_bits /DVD_storage_in_bits
-    out_num = med_num/DVD_speed
+    out_num = in_total_bits /DVD_storage_in_bits
     return out_num
 
 dvd_consumed_amount = DVD_number_checker(arregate_bits)
