@@ -25,7 +25,7 @@ DVD光碟片以記錄層可分為:
 
 常見的為單面單層光碟片儲存容量約4.7GB（簡稱DVD 5）
 
-![dvd](https://24h.pchome.com.tw/prod/DCAA3A-A9009DYOQ?fq=/S/DCAA0U)
+![dvd](https://c.ecimg.tw/items/DCAA08A900A0PXD/000001_1558080744.jpg)
 
 單面雙層光碟片儲存容量約8.54GB（簡稱DVD 9）
 
