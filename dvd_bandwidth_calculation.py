@@ -1,4 +1,4 @@
-# 4/01, am 8:45 - 10:00 (duration: 25 mins)
+# 4/01, am 8:45 - 10:30 (duration: 2 hrs)
 # DVD numbers calculation
 # COL : 17 lines
 # we define time in sec unit, and speed in Mbps unit.
