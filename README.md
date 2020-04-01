@@ -43,7 +43,7 @@ DVD光碟片以記錄層可分為:
 
 雙面雙層光碟片儲存容量約5.2GB
 
-# Conversion
+# Conversion (Bits - Bytes)
 
     1 bit = 0.125 bytes
     
