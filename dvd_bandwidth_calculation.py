@@ -38,7 +38,7 @@ def convertor(bytes):
     return bits
 
 DVD_storage_in_bits= convertor(DVD_storage_in_bytes)
-print(DVD_storage_in_bytes) # 587500000
+print(DVD_storage_in_bits) # 587500000
 
 def DVD_number_checker(in_total_bits):
     out_num = in_total_bits /DVD_storage_in_bits
