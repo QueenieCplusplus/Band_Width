@@ -1,7 +1,7 @@
 # BandWidth
 Calculation in Python
 
-# Spped_Constant (unit: MBPS)
+# Speed_Constant (unit: MBPS)
 
 DVD is 5 
 
