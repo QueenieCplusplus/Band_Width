@@ -19,3 +19,7 @@ SQ/HQ is 440||880
 
 計算 DVD 的容量時，1GB 代表 1,000,000,000 bytes，而不是慣用的 1GiB (1,073,741,824 bytes, 10243 bytes)。
 
+# Conversion
+
+    1 bits = 0.125 bytes
+
