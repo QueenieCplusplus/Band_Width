@@ -1,6 +1,10 @@
 # BandWidth
 Calculation in Python
 
+# Manual Calculation
+
+  86400 * 30 * 100 / 8 / (4.7 * 1024) = 6732.05
+
 # Speed_Constant (unit: MBps)
 
 DVD is 5 
