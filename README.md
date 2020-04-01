@@ -3,7 +3,13 @@ Calculation in Python
 
 # Manual Calculation
 
-  86400 * 30 * 100 / 8 / (4.7 * 1024) = 6732.05
+  60 * 60 * 24 = 86400 sec
+  
+  M = 100
+  
+  8 = bytes2Bit
+
+  86400 * 30 day * M / 8 / (4.7 * 1024) = 6732.05
 
 # Speed_Constant (unit: MBps)
 
