@@ -48,4 +48,12 @@ DVD光碟片以記錄層可分為:
     1 bit = 0.125 bytes
     
     1 byte = 8 bits
+    
+# Exceptions & Errors
+
+* Datagram Encapsulation
+
+* Jam & Delay
+
+* System Error
 
