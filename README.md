@@ -1,4 +1,4 @@
-# Band_Width
+# BandWidth
 Calculation in Python
 
 # Spped_Constant (unit: MBPS)
